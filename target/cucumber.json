@@ -1,0 +1,137 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-01T21:25:27.560Z",
+        "line": 19,
+        "name": "5. Task: get/pet/findByStatus Negative Case",
+        "description": "",
+        "id": "test-api;5.-task:-get/pet/findbystatus-negative-case",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2566833400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "send wrong GET request to api and verify status code",
+            "match": {
+              "location": "apiTasksStepDef.send_wrong_GET_request_to_api_and_verify_status_code()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@nur"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-01T21:25:30.152Z",
+        "line": 22,
+        "name": "6. Task: post/pet Negative Case",
+        "description": "",
+        "id": "test-api;6.-task:-post/pet-negative-case",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1394846899,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "send wrong POST request to api and verify status code",
+            "match": {
+              "location": "apiTasksStepDef.send_wrong_POST_request_to_api_and_verify_status_code()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@nur"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-01T21:25:31.549Z",
+        "line": 25,
+        "name": "7. Task: put/user/{username} Negative Case",
+        "description": "",
+        "id": "test-api;7.-task:-put/user/{username}-negative-case",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 976475601,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "send wrong PUT request to api and verify status code and updatedID \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 67
+                }
+              ],
+              "location": "apiTasksStepDef.send_wrong_PUT_request_to_api_and_verify_status_code_and_updatedID(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@nur"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-01T21:25:32.528Z",
+        "line": 28,
+        "name": "8. Task: delete/user/{username} Negative Case",
+        "description": "",
+        "id": "test-api;8.-task:-delete/user/{username}-negative-case",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1699535401,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "create user \"williamloves\" via api and send wrong DELETE request to api verify status code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"williamloves\"",
+                  "offset": 12
+                }
+              ],
+              "location": "apiTasksStepDef.create_user_via_api_and_send_wrong_DELETE_request_to_api_verify_status_code(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@nur"
+          }
+        ]
+      }
+    ],
+    "name": "Test API",
+    "description": "",
+    "id": "test-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/apiTasks.feature",
+    "tags": []
+  }
+]
