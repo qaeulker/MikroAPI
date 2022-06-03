@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/",
         glue = "mikroYazilim/com/apiTasks/stepDefs",
         dryRun = false,
-        tags = "@nur"
+        tags = ""
 )
 
 
